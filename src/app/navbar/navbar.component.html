@@ -1,0 +1,17 @@
+<!-- Navigator -->
+<nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
+  <a class="navbar-brand" href="#">
+    <i class="fa fa-newspaper-o" aria-hidden="true"></i>
+    {{appTitle}}
+  </a>  
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler">
+      <span class="navbar-toggler-icon"></span>
+  </button>      
+  <div class="collapse navbar-collapse" id="navbarToggler">
+      <ul class="nav navbar-nav ml-auto">
+          <li class="nav-item" *ngFor = "let item of navBarItems">
+            <a class="nav-link" href="/#{{item.url}}">{{item.name}}</a>
+          </li>      
+      </ul>
+  </div>  
+</nav> 
