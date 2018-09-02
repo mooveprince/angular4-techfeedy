@@ -6,11 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  private appTitle: String;
-  navBarItems:any[];
+  private appInfo: any;
+  private navBarItems:any[];
 
   constructor () {
-    this.appTitle = "TechFeedy";
+    this.appInfo = {
+      name: "TechFeedy",
+      logo: "fa fa-newspaper-o",
+      tagline: "All your trending topics in one place"
+    };
 
     this.navBarItems = [
       {name: "About", url: "about"},
