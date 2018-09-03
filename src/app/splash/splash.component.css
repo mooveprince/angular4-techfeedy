@@ -24,12 +24,6 @@
     padding-bottom: 20%;
 }
 
-.splash-divider {
-    width: 400px;
-    border-top: 1px solid #ffffff;
-    border-bottom: 1px solid rgba(0,0,0,0.2);
-}
-
 .splash-logo {
     margin: 0 2px 0 3px;
     font-size: 1.1em;

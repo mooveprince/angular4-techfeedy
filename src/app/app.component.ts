@@ -8,6 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   private appInfo: any;
   private navBarItems:any[];
+  private splashImg: string;
+  private sites: any[];
 
   constructor () {
     this.appInfo = {
@@ -21,5 +23,14 @@ export class AppComponent {
       {name: "Terms", url: "terms"},
       {name: "Contact", url: "contact"}
     ];
+
+    this.splashImg = '../assets/img/ckt-bg.jpg';
+
+    this.sites = [
+      {"name": "Hacker News", "logo" : "../assets/img/hackernews-logo.jpg", url: ""},
+      {"name": "Tech Meme", "logo" : "../assets/img/techmeme-logo.png", url: ""},
+      {"name": "Tech Crunch", "logo" : "../assets/img/techcrunch-logo.jpg", url: ""},
+      {"name": "Product Hunt", "logo" : "../assets/img/producthunt-logo.png", url: ""},
+    ]
   }
 }
