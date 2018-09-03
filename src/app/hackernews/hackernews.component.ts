@@ -14,8 +14,8 @@ export class HackernewsComponent implements OnInit {
   constructor(private service:HackernewsService) { }
 
   ngOnInit() {
-    this.service.getAllHackerNews ()
-    .subscribe(trends => this.trends = trends);
+    this.service.getAll()
+    .subscribe(trends => this.trends = trends.slice(0,10));
   }
 
 }

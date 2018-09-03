@@ -32,7 +32,7 @@ export class AppComponent {
         "logo" : "../assets/img/hackernews-logo.jpg", 
         "siteUrl": "https://news.ycombinator.com/",
         "trendUrl" : "https://ozlnvyhz2f.execute-api.us-east-1.amazonaws.com/prod/gethackerfeed"
-      } /*,
+      },
       {
         "name": "Tech Meme", 
         "logo" : "../assets/img/techmeme-logo.png", 
@@ -50,7 +50,7 @@ export class AppComponent {
         "logo" : "../assets/img/producthunt-logo.png", 
         "siteUrl": "https://www.producthunt.com/",
         "trendUrl" : "https://7jlmauvwl4.execute-api.us-east-1.amazonaws.com/prod/getproducthunttrend"
-      }*/
+      }
     ]
   }
 }
