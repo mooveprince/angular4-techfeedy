@@ -1,0 +1,19 @@
+<div class="content-section-b">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-12 text-center">
+              <h2 class="section-heading">
+                  <a style="color: #000000;" href="https://news.ycombinator.com/" target="_blank">Hacker News</a></h2>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-md-12">
+              <div class="list-group feedData" *ngFor = "let trend of trends">
+                <div>
+                    <a href="#" target="_blank" class="list-group-item list-group-item-action">{{trend.title}}</a>
+                </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>

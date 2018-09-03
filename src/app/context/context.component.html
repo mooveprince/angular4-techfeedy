@@ -1,18 +1,20 @@
 <a name="about"></a>
-        <div class="content-section-b">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <h2 class="section-heading">Get current highlights from these sites</h2>
-                    </div>
-                </div>
+<div class="content-section-b">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h2 class="section-heading">Get current highlights from these sites</h2>
+            </div>
+        </div>
 
-                <div class="row">
-                    <div class="col-md-3" *ngFor="let site of sites">
-                        <div class="row" style="margin-top:10px;">
-                            <div class="col-xs-12"><img class="img-thumbnail img-fluid" src="{{site.logo}}" alt=""></div>
-                        </div>
+        <div class="row">
+            <div class="col-md-3" *ngFor="let site of sites">
+                <div class="row" style="margin-top:10px;">
+                    <div class="col-xs-12">
+                        <a href="{{site.siteUrl}}" target="_blank"><img class="img-thumbnail img-fluid" src="{{site.logo}}" alt=""></a>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+</div>
