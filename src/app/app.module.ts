@@ -39,7 +39,7 @@ import { FooterComponent } from './footer/footer.component';
     HttpModule
   ],
   providers: [
-    DataService, 
+    //DataService, 
     HackernewsService, 
     TechcrunchService,
     TechmemeService,

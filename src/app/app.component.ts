@@ -6,10 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  private appInfo: any;
-  private navBarItems:any[];
-  private splashImg: string;
-  private sites: any[];
+  appInfo: any;
+  navBarItems:any[];
+  splashImg: string;
+  sites: any[];
 
   constructor () {
     this.appInfo = {

@@ -7,8 +7,8 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class SplashComponent implements OnInit {
 
-  @Input("app-info") appInfo: String;
-  @Input("splash-img") splashImg: String;
+  @Input("app-info") appInfo;
+  @Input("splash-img") splashImg;
   
   constructor() { }
 

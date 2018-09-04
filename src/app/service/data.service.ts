@@ -1,7 +1,7 @@
 import { Http } from '@angular/http';
 import { Injectable } from '@angular/core';
 
-@Injectable()
+//@Injectable()
 export class DataService {
 
   constructor(private http:Http, private url:string) { }
