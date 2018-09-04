@@ -16,6 +16,9 @@ import { TechcrunchComponent } from './techcrunch/techcrunch.component';
 import { ProducthuntComponent } from './producthunt/producthunt.component';
 import { TechcrunchService } from './service/techcrunch.service';
 import { ProducthuntService } from './service/producthunt.service';
+import { TermsComponent } from './terms/terms.component';
+import { ContactComponent } from './contact/contact.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +29,10 @@ import { ProducthuntService } from './service/producthunt.service';
     HackernewsComponent,
     TechmemeComponent,
     TechcrunchComponent,
-    ProducthuntComponent
+    ProducthuntComponent,
+    TermsComponent,
+    ContactComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

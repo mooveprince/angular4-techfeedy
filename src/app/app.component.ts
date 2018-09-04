@@ -30,26 +30,22 @@ export class AppComponent {
       {
         "name": "Hacker News", 
         "logo" : "../assets/img/hackernews-logo.jpg", 
-        "siteUrl": "https://news.ycombinator.com/",
-        "trendUrl" : "https://ozlnvyhz2f.execute-api.us-east-1.amazonaws.com/prod/gethackerfeed"
+        "siteUrl": "https://news.ycombinator.com/"
       },
       {
         "name": "Tech Meme", 
         "logo" : "../assets/img/techmeme-logo.png", 
-        "siteUrl": "https://www.techmeme.com/",
-        "trendUrl" : "https://82rrysxymg.execute-api.us-east-1.amazonaws.com/prod/gettechmemefeed"
+        "siteUrl": "https://www.techmeme.com/"
       },
       {
         "name": "Tech Crunch", 
         "logo" : "../assets/img/techcrunch-logo.jpg", 
-        "siteUrl": "https://techcrunch.com/",
-        "trendUrl" : "https://zu89rny3jk.execute-api.us-east-1.amazonaws.com/prod/gettechcrunchfeed"
+        "siteUrl": "https://techcrunch.com/"
       },
       {
         "name": "Product Hunt", 
         "logo" : "../assets/img/producthunt-logo.png", 
-        "siteUrl": "https://www.producthunt.com/",
-        "trendUrl" : "https://7jlmauvwl4.execute-api.us-east-1.amazonaws.com/prod/getproducthunttrend"
+        "siteUrl": "https://www.producthunt.com/"
       }
     ]
   }

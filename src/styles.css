@@ -39,3 +39,16 @@ a.list-group-item.list-group-item-action {
 .list-group-item {
     border: 0px;
 }
+
+.lead {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.techfeedy-space {
+    margin-top: 50px;
+}
+
+.techfeedy-section-heading {
+    text-align: center;
+}

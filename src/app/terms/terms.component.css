@@ -1,0 +1,22 @@
+.content-section-a {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+.techfeedy-section-heading {
+    text-align: center;
+}
+
+.section-heading {
+    margin-bottom: 30px;
+}
+
+.col-lg-offset-2 {
+    margin-left: 16.66%;
+}
+
+@media(max-width:767px) {
+    .col-lg-offset-2 {
+        margin-left: 0px;
+    }
+}
