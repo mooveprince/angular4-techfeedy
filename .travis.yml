@@ -2,8 +2,8 @@ sudo: required
 services:
   - docker
 
-#before_install:
- # - docker build -t mooveprince/techfeedy .
+before_install:
+  - docker build -t mooveprince/techfeedy .
 
 deploy:
   provider: elasticbeanstalk
