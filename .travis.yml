@@ -9,7 +9,7 @@ deploy:
   app: "docker-techfeedy"
   env: "DockerTechfeedy-env"
   bucket_name: "elasticbeanstalk-us-east-1-674449595317"
-  bukcet_path: "docker-techfeedy"
+  bucket_path: "docker-techfeedy"
   on:
     branch: master
   access_key_id: $AWS_ACCESS_KEY
