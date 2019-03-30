@@ -1,6 +1,7 @@
 # Techfeedy
 
-http://techfeedy.xyz Pulls the trending topics from Hacker News, TechMeme, TechCrunch and Product Hunt
+http://techfeedy.xyz <BR>
+Pulls the trending topics from Hacker News, TechMeme, TechCrunch and Product Hunt
 
 ### Dev Env
 
