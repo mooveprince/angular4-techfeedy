@@ -1,10 +1,10 @@
 # Techfeedy
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
+http://techfeedy.xyz Pulls the trending topics from Hacker News, TechMeme, TechCrunch and Product Hunt
 
 ### Dev Env
 
-Run -> docker-compose up
+Run -> docker-compose up <br>
 url -> localhost:4200
 
 ![](documentation/images/Dev.png)
